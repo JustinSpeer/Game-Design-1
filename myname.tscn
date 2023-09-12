@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://dpag5eamy4v2a"]
+
+[node name="Myname" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 261.0
+offset_top = 111.0
+offset_right = 931.0
+offset_bottom = 384.0
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 450.0
+offset_top = 379.0
+offset_right = 763.0
+offset_bottom = 485.0
+text = "Click here!"
+
+[node name="Button2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 448.0
+offset_top = 521.0
+offset_right = 764.0
+offset_bottom = 627.0
+text = "Clear"
