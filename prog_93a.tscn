@@ -1,0 +1,66 @@
+[gd_scene load_steps=2 format=3 uid="uid://ctec7mi4w2huv"]
+
+[ext_resource type="Script" path="res://prog_93a.gd" id="1_i6d3h"]
+
+[node name="prog_93a" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = -2.0
+offset_bottom = -2.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_i6d3h")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 111.0
+offset_right = 369.0
+offset_bottom = 198.0
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 4.0
+offset_right = 370.0
+offset_bottom = 88.0
+
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 418.0
+offset_top = 1.0
+offset_right = 728.0
+offset_bottom = 90.0
+
+[node name="LineEdit2" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 416.0
+offset_top = 110.0
+offset_right = 726.0
+offset_bottom = 199.0
+
+[node name="btnExit" type="Button" parent="."]
+layout_mode = 0
+offset_left = 918.0
+offset_top = 519.0
+offset_right = 1150.0
+offset_bottom = 647.0
+text = "Exit"
+
+[node name="btnClear" type="Button" parent="."]
+layout_mode = 0
+offset_left = 453.0
+offset_top = 519.0
+offset_right = 692.0
+offset_bottom = 650.0
+text = "Clear"
+
+[node name="btnCalc" type="Button" parent="."]
+layout_mode = 0
+offset_left = 2.0
+offset_top = 520.0
+offset_right = 239.0
+offset_bottom = 647.0
+text = "Calculate"
