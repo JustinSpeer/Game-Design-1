@@ -15,7 +15,11 @@ func _process(delta):
 
 
 func _on_btn_calc_pressed():
-	pass # Replace with function body.
+	var 
+	
+	
+	
+	
 
 
 
@@ -23,7 +27,8 @@ func _on_btn_calc_pressed():
 
 
 func _on_btn_clear_pressed():
-	pass # Replace with function body.
+	$LineEdit.text = ""
+	$LineEdit.text = ""
 
 
 
@@ -32,4 +37,4 @@ func _on_btn_clear_pressed():
 
 
 func _on_btn_exit_pressed():
-	pass # Replace with function body.
+	get_tree().quit()
