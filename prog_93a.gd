@@ -15,7 +15,9 @@ func _process(delta):
 
 
 func _on_btn_calc_pressed():
-	var 
+	_delta
+	
+	
 	
 	
 	
