@@ -41,10 +41,6 @@ func _on_btn_calc_pressed():
 				"\nMin = " + str(Min)
 
 
-	$lblOut.text = ""
-	$txtNum1.text = ""
-	$txtNum2.text = ""
-
 
 
 
