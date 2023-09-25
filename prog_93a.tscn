@@ -34,13 +34,6 @@ offset_top = 1.0
 offset_right = 728.0
 offset_bottom = 90.0
 
-[node name="LineEdit2" type="LineEdit" parent="."]
-layout_mode = 0
-offset_left = 416.0
-offset_top = 110.0
-offset_right = 726.0
-offset_bottom = 199.0
-
 [node name="btnExit" type="Button" parent="."]
 layout_mode = 0
 offset_left = 918.0
