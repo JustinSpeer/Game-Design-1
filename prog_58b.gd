@@ -12,16 +12,6 @@ func _process(delta):
 
 
 
-func _on_lbl_calc_pressed():
-	var A = int($txtA.text)
-	var B = int($txtB.text)
-	var C = int($txtC.text)
-	var proot = (-B + sqrt(B**2 - 4 * A * C)) / 2 * A
-	var nroot = (-B - sqrt(B**2 - 4 * A * C)) / 2 * A
-	$lblOut.text = "Roots are %d and %d" % [proot, nroot]
-
-
-
 
 
 func _on_lbl_exit_pressed():
@@ -33,3 +23,13 @@ func _on_btn_out_pressed():
 	$txtB.text = ""
 	$txtC.text = ""
 	$lblOut.text = ""
+
+
+func _on_btn_calc_pressed():
+	var A = int($txtA.text)
+	var B = int($txtB.text)
+	var C = int($txtC.text)
+	var proot = (-B + sqrt(B**2 - 4 * A * C)) / 2 * A
+	var nroot = (-B - sqrt(B**2 - 4 * A * C)) / 2 * A
+	$lblOut.text = "Roots are %d and %d" % [proot, nroot]
+

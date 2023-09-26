@@ -14,20 +14,25 @@ func _process(delta):
 
 
 func _on_btn_calc_pressed():
-	$ItemList.add_item("Number      square       Square Root")
+	$ItemList.add_item("Number      square      Square Root")
 	for num in range(1, 51):
 		var numsquared = num**2  # pow(num, 2)
-		var numsqrt = sprt(num)
+		var numsqrt = sqrt(num)
 		var line = "%d      %d     %.4f" % [num, numsquared, numsqrt]
-		$ItemList.add_item(Line)
+		$ItemList.add_item(line)
 	pass
 
 
 
 func _on_btn_clear_pressed():
-	$ItemList.text.clear()
+	$ItemList.clear()
+	pass
+	
+	
 
 
 
 func _on_btn_exit_pressed():
 	get_tree().quit()
+	
+

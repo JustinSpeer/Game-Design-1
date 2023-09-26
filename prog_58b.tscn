@@ -11,13 +11,13 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_fh0l1")
 
-[node name="txtA" type="LineEdit" parent="."]
+[node name="txtB" type="LineEdit" parent="."]
 layout_mode = 0
 offset_top = 132.0
 offset_right = 286.0
 offset_bottom = 232.0
 
-[node name="txtB" type="LineEdit" parent="."]
+[node name="txtA" type="LineEdit" parent="."]
 layout_mode = 0
 offset_right = 286.0
 offset_bottom = 100.0
@@ -64,6 +64,7 @@ offset_left = 530.0
 offset_right = 1152.0
 offset_bottom = 365.0
 
+[connection signal="pressed" from="btnCalc" to="." method="_on_btn_calc_pressed"]
 [connection signal="pressed" from="btnCalc" to="." method="_on_lbl_calc_pressed"]
 [connection signal="pressed" from="btnOut" to="." method="_on_lbl_out_pressed"]
 [connection signal="pressed" from="btnOut" to="." method="_on_btn_out_pressed"]

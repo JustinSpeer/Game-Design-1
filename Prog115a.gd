@@ -28,3 +28,7 @@ func _on_calc_pressed():
 func _on_clear_pressed():
 	$ItemsList.clear()
 
+
+
+func _on_exit_pressed():
+	get_tree().quit()
