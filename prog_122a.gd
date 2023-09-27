@@ -27,12 +27,8 @@ func _on_btn_calc_pressed():
 func _on_btn_clear_pressed():
 	$ItemList.clear()
 	pass
-	
-	
 
 
 
 func _on_btn_exit_pressed():
 	get_tree().quit()
-	
-

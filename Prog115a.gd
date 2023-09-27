@@ -19,9 +19,7 @@ func _on_calc_pressed():
 	# range (start, stop, step)
 	for num in range(2, 36+1, 2):
 		var line = "%d" % num 
-		$ItemList.add_item(Line)
-
-
+		$ItemList.add_item(line)
 
 
 
