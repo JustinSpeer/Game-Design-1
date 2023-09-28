@@ -23,7 +23,7 @@ offset_right = 211.0
 offset_bottom = 646.0
 text = "Calc"
 
-[node name="Clear" type="Button" parent="."]
+[node name="Exit" type="Button" parent="."]
 layout_mode = 0
 offset_left = 939.0
 offset_top = 534.0
@@ -31,7 +31,7 @@ offset_right = 1150.0
 offset_bottom = 649.0
 text = "Exit"
 
-[node name="Exit" type="Button" parent="."]
+[node name="Clear" type="Button" parent="."]
 layout_mode = 0
 offset_left = 471.0
 offset_top = 533.0
@@ -40,5 +40,6 @@ offset_bottom = 648.0
 text = "Clear"
 
 [connection signal="pressed" from="Calc" to="." method="_on_calc_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_clear_pressed"]
 [connection signal="pressed" from="Clear" to="." method="_on_clear_pressed"]
-[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="Clear" to="." method="_on_exit_pressed"]

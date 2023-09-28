@@ -17,31 +17,42 @@ offset_right = 1149.0
 offset_bottom = 492.0
 
 [node name="btnCalc" type="Button" parent="."]
-layout_mode = 0
-offset_left = 1.0
-offset_top = 543.0
-offset_right = 262.0
-offset_bottom = 647.0
-text = "Calculate"
+layout_mode = 1
+anchors_preset = 2
+anchor_top = 1.0
+anchor_bottom = 1.0
+offset_top = -118.0
+offset_right = 249.0
+grow_vertical = 0
+text = "Calc"
 
 [node name="btnExit" type="Button" parent="."]
-layout_mode = 0
-offset_left = 891.0
-offset_top = 547.0
-offset_right = 1152.0
-offset_bottom = 651.0
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -249.0
+offset_top = -118.0
+grow_horizontal = 0
+grow_vertical = 0
 text = "Exit"
 
 [node name="btnClear" type="Button" parent="."]
-layout_mode = 0
-offset_left = 448.0
-offset_top = 544.0
-offset_right = 709.0
-offset_bottom = 648.0
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -124.5
+offset_top = -118.0
+offset_right = 124.5
+grow_horizontal = 2
+grow_vertical = 0
 text = "Clear"
 
 [connection signal="pressed" from="btnCalc" to="." method="_on_btn_calc_pressed"]
-[connection signal="pressed" from="btnExit" to="." method="_on_btn_clear_pressed"]
 [connection signal="pressed" from="btnExit" to="." method="_on_btn_exit_pressed"]
 [connection signal="pressed" from="btnClear" to="." method="_on_btn_clear_pressed"]
-[connection signal="pressed" from="btnClear" to="." method="_on_btn_exit_pressed"]
