@@ -1,0 +1,53 @@
+[gd_scene load_steps=2 format=3 uid="uid://xorjhocywm06"]
+
+[ext_resource type="Script" path="res://Scoreboard.gd" id="1_ude13"]
+
+[node name="Scoreboard" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_bottom = -339.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ude13")
+
+[node name="lblOut" type="Label" parent="."]
+layout_mode = 0
+offset_right = 1155.0
+offset_bottom = 315.0
+
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 520.0
+offset_top = 320.0
+offset_right = 814.0
+offset_bottom = 401.0
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_bottom = 0.018
+offset_left = 4.0
+offset_top = 319.0
+offset_right = 497.0
+offset_bottom = 388.438
+
+[node name="btnReset" type="Button" parent="."]
+layout_mode = 0
+offset_left = 840.0
+offset_top = 561.0
+offset_right = 1152.0
+offset_bottom = 647.0
+text = "Reset"
+
+[node name="btnUpdate" type="Button" parent="."]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 559.0
+offset_right = 313.0
+offset_bottom = 645.0
+text = "Update"
+
+[connection signal="pressed" from="btnReset" to="." method="_on_btn_reset_pressed"]
+[connection signal="pressed" from="btnUpdate" to="." method="_on_btn_update_pressed"]

@@ -66,6 +66,6 @@ offset_bottom = 365.0
 
 [connection signal="pressed" from="btnCalc" to="." method="_on_lbl_calc_pressed"]
 [connection signal="pressed" from="btnCalc" to="." method="_on_btn_calc_pressed"]
-[connection signal="pressed" from="btnOut" to="." method="_on_btn_out_pressed"]
 [connection signal="pressed" from="btnOut" to="." method="_on_lbl_out_pressed"]
+[connection signal="pressed" from="btnOut" to="." method="_on_btn_out_pressed"]
 [connection signal="pressed" from="btnExit" to="." method="_on_lbl_exit_pressed"]
